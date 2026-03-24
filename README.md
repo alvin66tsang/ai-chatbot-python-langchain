@@ -3,10 +3,10 @@
 A modern, stateful AI conversational assistant built with Python 3.11+, LangChain, and Streamlit. This bot features persistent session memory, allowing it to remember context throughout a conversation.
 
 ## Features
-# Persistent Memory: Utilizes RunnableWithMessageHistory to maintain context across multiple turns.
-# Session Management: Sidebar integration to reset the conversation and start a "New Chat" instantly.
-# Secure API Handling: Input your OpenAI API Key directly into the UI (processed via Pydantic SecretStr).
-# Interactive UI: Built with Streamlit's native st.chat_message and st.chat_input components.
+1. Persistent Memory: Utilizes RunnableWithMessageHistory to maintain context across multiple turns.
+2. Session Management: Sidebar integration to reset the conversation and start a "New Chat" instantly.
+3. Secure API Handling: Input your OpenAI API Key directly into the UI (processed via Pydantic SecretStr).
+4. Interactive UI: Built with Streamlit's native st.chat_message and st.chat_input components.
 
 ## Getting Started
 1. Prerequisites
